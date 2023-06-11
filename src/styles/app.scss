@@ -33,6 +33,7 @@ $ffbody: 'Poppins', sans-serif;
         .logos .icon{
             padding-right: .5rem;
             cursor: pointer;
+            font-size: .95rem;
             &:hover{
                 transition: transform all .3ms ease;
                 color: $maybe;
@@ -40,7 +41,7 @@ $ffbody: 'Poppins', sans-serif;
         }
         span{
             font-weight: 600;
-            font-size: .9rem;
+            font-size: .8rem;
         }
     }
     .dash{

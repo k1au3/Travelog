@@ -19,6 +19,7 @@
 .hero .social .logos .icon {
   padding-right: 0.5rem;
   cursor: pointer;
+  font-size: 0.95rem;
 }
 .hero .social .logos .icon:hover {
   transition: transform all 0.3ms ease;
@@ -26,7 +27,7 @@
 }
 .hero .social span {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .hero .dash {
   height: 1px;
