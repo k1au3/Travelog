@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Poppins:wght@400;600;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 0.6rem 0 0.3rem 2rem;
+}
+.hero .social .logos .icon {
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+.hero .social .logos .icon:hover {
+  transition: transform all 0.3ms ease;
+  color: rgb(42, 157, 143);
+}
+.hero .social span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.hero .dash {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(6, 214, 160);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 5rem;
+}
+nav .left {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+nav .left .logo {
+  font-family: "Kablammo", cursive;
+  font-size: 2rem;
+  cursor: pointer;
+}
+nav .left ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+nav .left ul li {
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav .left ul li:hover {
+  transition: transform all 0.3s ease;
+  color: rgb(42, 157, 143);
+}
+nav .right .btn {
+  padding: 0.4rem 1rem;
+  background: transparent;
+  border-radius: 15px;
+  border: none;
+}
+nav .right .btn:hover {
+  background-color: rgb(87, 211, 176);
+  transition: all 300ms ease;
+}
+
+.carousel {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 2.5rem 5rem;
+  height: 100%;
+  padding: 3rem 1rem 5rem 4rem;
+}
+.carousel .h5 {
+  display: flex;
+  align-items: center;
+}
+.carousel .h5 h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.carousel .h5 .dash {
+  height: 0.2rem;
+  width: 2rem;
+  background-color: black;
+  margin-right: 1rem;
+}
+.carousel h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  padding: 1.3rem 0;
+}
+.carousel .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel .bottom .left span {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.carousel .bottom .left .nav-btn {
+  margin-top: 0.8rem;
+  margin-right: 0.3rem;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.carousel .bottom .left .nav-btn:hover {
+  color: rgb(87, 211, 176);
+  transition: all 0.3s ease;
+}
+.carousel .bottom .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 20rem;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 1rem;
+  color: black;
+}
+.carousel .bottom .right img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.carousel .bottom .right .para p {
+  font-size: 1rem;
+}
+.carousel .bottom .right .para .hero-btn {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  margin-top: 0.7rem;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.carousel .bottom .right .para .hero-btn:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.1s ease;
+}
+
+.icons {
+  margin: 1rem;
+}
+.icons img {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
+}
+.icons h6 {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.icons h6:hover {
+  transition: all 0.1s ease;
+  color: rgb(164, 113, 72);
+}
+
+.float {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: -6rem 12rem 2rem 12rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 35, 138, 0.37);
+  padding: 1rem 2rem;
+}
+.float .facilities {
+  width: 50%;
+}
+.float .facilities .up {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.float .facilities .up h3 {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.float .facilities .up span {
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: rgb(164, 113, 72);
+  cursor: pointer;
+}
+.float .facilities .up span:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.1s ease;
+}
+.float .facilities .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.float .for-you {
+  width: 100%;
+  margin-top: -2rem;
+  padding: 0 2rem;
+  height: 100%;
+}
+.float .for-you .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.float .for-you .top h3 {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.float .for-you .top span {
+  font-weight: 800;
+  font-size: 1rem;
+  opacity: 0.6;
+}
+.float .for-you .top .ion:nth-child(2) {
+  color: rgb(42, 157, 143);
+}
+.float .for-you .top .ion #icon {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.float .for-you .top .ion #icon:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.1s ease;
+}
+.float .for-you .mid {
+  font-weight: 600;
+  padding: 1rem 0;
+  opacity: 0.6;
+}
+.float .for-you .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.float .for-you .bottom .float-btn {
+  padding: 0.2rem 0.4rem;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  background: transparent;
+  border: 1px solid gray;
+}
+.float .for-you .bottom .float-btn #ion {
+  font-size: 1.1rem;
+  color: rgb(30, 136, 229);
+  padding-right: 0.4rem;
+}
+.float .for-you .bottom .profiles img {
+  padding-right: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}/*# sourceMappingURL=app.css.map */
