@@ -321,3 +321,88 @@ nav{
         }
     }
 }
+
+//activities page2
+
+.row{
+    padding: 2rem 0 2rem 5rem;
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+        h3{
+            font-weight: 600;
+            font-size: 1.5rem;
+            
+        }
+        .navigation-buttons{
+            padding-right: 3rem;
+            button{
+                font-size: 2rem;
+                border: none;
+                background: transparent;
+                &:hover{
+                    color: $maybe;
+                    transition: all .1s ease;
+                }
+            }
+        }
+    }
+}
+
+.activities{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    
+    .activity{
+        width: 15rem;
+        height: 10rem;
+        padding: 1rem;
+        position: relative;
+        border-radius: 7px;
+        border: 1px solid rgba(31, 35, 138, .37);
+        // box-shadow: 1px 0 2px 1px  rgba(31, 35, 138, .37);
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background: rgba(0, 0, 0, .2);
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, .5);
+        }
+        #rate{
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: .8rem;
+            font-weight: 600;
+            padding: .1rem .2rem;
+            background-color: $colorlightbrown;
+            border-radius: 5px;
+            // margin-bottom: 3rem;
+        }
+        img{
+            color: $maybe;
+            height: 3rem;
+            width: 3rem;
+            margin: 2rem 0 1rem 0;
+        }
+        h3{
+            font-size: .8rem;
+            font-weight: 600;
+            // padding: ;
+        }
+        #idadi{
+            padding-top: 1rem;
+            opacity: .6;
+            font-weight: 600;
+            font-size: .7rem;
+        }
+    }
+}

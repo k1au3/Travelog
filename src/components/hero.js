@@ -9,7 +9,8 @@ import cc from '../images/icons/credit-cards.png';
 import swimming from '../images/icons/swimming.png';
 import wifi from '../images/icons/wifi.png';
 import ac from '../images/icons/air-conditioning.png';
-import dinner from '../images/icons/serving-dish.png'
+import dinner from '../images/icons/serving-dish.png';
+import { SingleCarousel } from "../data/data";
 
 
 
@@ -46,37 +47,7 @@ function Nav(){
 
 //carousel array
 
-    const SingleCarousel = [
-        {
-            id:1,
-            sub: 'The Himalayan Mountain Ranges',
-            title: 'Nepal Country',
-            temp: 'Very cold',
-            url: himalaya
-        },
-        {
-            id: 2,
-            sub: 'Warm Sandy Beaches',
-            title: 'Malindi County',
-            temp: 'Warm Tropical',
-            url: beach
-        },
-        {
-            id:3,
-            sub: 'Freezing Tempratures and Snow',
-            title: 'Mount Everest',
-            temp: 'Freezing',
-            url: mount
-        },
-        {
-            id:4,
-            sub: 'Pyramids of Giza',
-            title: 'Ancient Egypt',
-            temp: 'Hot Dry ',
-            url: egypt
-        }
-    ];
-
+    
     //hero
 
     const Carousel = ({ cards }) => {
