@@ -1,14 +1,19 @@
+import React, { lazy, Suspense} from 'react';
 import './styles/app.css'
-// import './App.css';
-import Hero from './components/hero';
-import Page2 from './components/activities';
+import { trendingData } from "./data/data";
+
+
+const Hero = lazy(() => import('./components/hero'));
+const Page2 = lazy(() => import('./components/activities'));
+const Trending = lazy(() => import('./components/trending'));
 
 function App() {
   return (
-    <div className="App">
+    <Suspense fallback={<div>Loading...</div>}>
       <Hero />
       <Page2 />
-    </div>
+      <Trending Data={trendingData} />
+    </Suspense>
   );
 }
 

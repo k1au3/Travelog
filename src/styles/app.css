@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -301,7 +302,7 @@ nav .right .btn:hover {
   padding-right: 3rem;
 }
 .row .nav .navigation-buttons button {
-  font-size: 2rem;
+  font-size: 1.7rem;
   border: none;
   background: transparent;
 }
@@ -342,8 +343,9 @@ nav .right .btn:hover {
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.1rem 0.2rem;
-  background-color: rgb(255, 209, 102);
-  border-radius: 5px;
+  color: rgb(164, 113, 72);
+  background-color: burlywood;
+  border-radius: 10px;
 }
 .activities .activity img {
   color: rgb(42, 157, 143);
@@ -360,4 +362,123 @@ nav .right .btn:hover {
   opacity: 0.6;
   font-weight: 600;
   font-size: 0.7rem;
+}
+
+.trending-list-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 1rem 0 1rem 5rem;
+}
+.trending-list-container .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trending-list-container .nav h3 {
+  font-size: 1.5rem;
+}
+.trending-list-container .nav .nav-buttons {
+  margin-right: 8rem;
+}
+.trending-list-container .nav .nav-buttons button {
+  font-size: 1.7rem;
+  border: none;
+  background: transparent;
+}
+.trending-list-container .nav .nav-buttons button:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.1s ease;
+}
+.trending-list-container .trending-list {
+  display: flex;
+  gap: 1.4rem;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  padding: 1.5rem 0 1rem 1rem;
+}
+.trending-list-container .trending-list .trending-card {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 100%;
+  padding: 0.8rem;
+  flex: 0 0 auto;
+  position: relative;
+}
+.trending-list-container .trending-list .trending-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+.trending-list-container .trending-list .trending-card img {
+  width: 100%;
+  height: 8rem;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+.trending-list-container .trending-list .trending-card .title-cont {
+  padding: 1rem 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trending-list-container .trending-list .trending-card .title-cont .left h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.trending-list-container .trending-list .trending-card .title-cont .left h6 {
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+.trending-list-container .trending-list .trending-card .title-cont #icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.trending-list-container .trending-list .trending-card .title-cont #icon:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.1s ease;
+}
+.trending-list-container .trending-list .trending-card .price-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trending-list-container .trending-list .trending-card .price-cont .left span {
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+.trending-list-container .trending-list .trending-card .price-cont .left h3 {
+  font-size: 1rem;
+}
+.trending-list-container .trending-list .trending-card .price-cont .right .star {
+  font-size: 0.8rem;
+  color: rgb(255, 209, 102);
+}
+.trending-list-container .trending-list .trending-card .price-cont .right h3 {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.trending-list-container .trending-list .trending-card .cancel {
+  padding: 1rem 0;
+}
+.trending-list-container .trending-list .trending-card .cancel #icon {
+  padding-right: 0.3rem;
+  color: rgb(42, 157, 143);
+}
+.trending-list-container .trending-list .trending-card .cancel #span {
+  padding-right: 3rem;
+}
+.trending-list-container .trending-list .trending-card .cancel span {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  font-weight: 600;
 }/*# sourceMappingURL=app.css.map */
