@@ -552,13 +552,15 @@ nav .right .btn:hover {
   width: 35%;
   height: 100%;
   border-radius: 10px;
-  background: url(../images/greece.jpg);
+  background: url(../images/safari.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .destinations .gallery .right {
   display: flex;
+  width: 40%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -566,6 +568,7 @@ nav .right .btn:hover {
 .destinations .gallery .right .london {
   height: 13rem;
   width: 100%;
+  border-radius: 10px;
   background: url(../images/london.jpg);
   background-size: cover;
   background-position: center;
@@ -579,19 +582,21 @@ nav .right .btn:hover {
   justify-content: space-between;
 }
 .destinations .gallery .right .bottom .kenya {
-  width: 50%;
+  width: 55%;
   height: 100%;
-  background: url(../images/safari.jpg);
+  border-radius: 10px;
+  background: url(../images/greece.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .destinations .gallery .right .bottom .paris {
-  width: 40%;
+  width: 43%;
+  border-radius: 10px;
   height: 100%;
   background: url(../images/paris.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 

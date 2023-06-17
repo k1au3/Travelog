@@ -28,12 +28,12 @@ const Destination = () => {
                     <Gallery darasa="train" rate="4.2" title="Old Rain" sub="Train track" />
                 </div>
                 
-                <Gallery darasa="mid" rate="4.7" title="Greece" sub="Beaches" />
+                <Gallery darasa="mid" rate="4.9" title="Kenya" sub="Safari" />
 
                 <div className="right">
                     <Gallery darasa="london" rate="4.2" title="London" sub="Kingdom" />
                     <div className="bottom">
-                        <Gallery darasa="kenya" rate="4.9" title="Kenya" sub="Safari" />
+                        <Gallery darasa="kenya" rate="4.7" title="Greece" sub="Beaches" />
                         <Gallery darasa="paris" rate="4.7" title="Paris" sub="Eiffel" />
                     </div>
                 </div>
