@@ -324,7 +324,7 @@ nav .right .btn:hover {
   padding: 1rem;
   position: relative;
   border-radius: 7px;
-  border: 1px solid rgba(31, 35, 138, 0.37);
+  border: 1px solid rgb(94, 94, 94);
 }
 .activities .activity::after {
   content: "";
@@ -344,7 +344,7 @@ nav .right .btn:hover {
   font-weight: 600;
   padding: 0.1rem 0.2rem;
   color: rgb(164, 113, 72);
-  background-color: burlywood;
+  background-color: rgb(248, 233, 213);
   border-radius: 10px;
 }
 .activities .activity img {
@@ -457,7 +457,7 @@ nav .right .btn:hover {
   font-size: 0.8rem;
 }
 .trending-list-container .trending-list .trending-card .price-cont .left h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .trending-list-container .trending-list .trending-card .price-cont .right .star {
   font-size: 0.8rem;
@@ -484,9 +484,140 @@ nav .right .btn:hover {
 }
 
 .destinations {
-  border: 1px solid red;
-  margin: 1rem 3rem 1rem 5rem;
+  margin: 1rem 7rem 1rem 7rem;
+  padding: 1rem;
 }
 .destinations .nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 2rem;
+}
+.destinations .nav .left h3 {
+  font-size: 1.5rem;
+}
+.destinations .nav .left span {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.destinations .nav button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid rgb(94, 94, 94);
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.destinations .nav button:hover {
+  background: rgb(6, 214, 160);
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.destinations .gallery {
+  width: 100%;
+  height: 27rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.destinations .gallery .left {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.destinations .gallery .left .vietnam {
+  height: 13rem;
+  width: 100%;
+  border-radius: 10px;
+  background: url(../images/vietnam.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.destinations .gallery .left .train {
+  height: 13rem;
+  width: 100%;
+  border-radius: 10px;
+  background: url(../images/tunnel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.destinations .gallery .mid {
+  width: 35%;
+  height: 100%;
+  border-radius: 10px;
+  background: url(../images/greece.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.destinations .gallery .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.destinations .gallery .right .london {
+  height: 13rem;
+  width: 100%;
+  background: url(../images/london.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.destinations .gallery .right .bottom {
+  display: flex;
+  height: 13rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.destinations .gallery .right .bottom .kenya {
+  width: 50%;
+  height: 100%;
+  background: url(../images/safari.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.destinations .gallery .right .bottom .paris {
+  width: 40%;
+  height: 100%;
+  background: url(../images/paris.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#card span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  color: rgb(164, 113, 72);
+  background-color: rgb(248, 236, 220);
+  border-radius: 10px;
+}
+#card .text {
+  color: #fff;
+}
+#card .text h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#card .text h5 {
+  opacity: 0.7;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=app.css.map */
