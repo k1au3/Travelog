@@ -800,6 +800,7 @@ nav .right .btn:hover {
 .cont img {
   width: 2.5rem;
   height: 2.5rem;
+  background-color: #fff;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
