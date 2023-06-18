@@ -800,7 +800,7 @@ nav .right .btn:hover {
 .cont img {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #fff;
+  
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -853,6 +853,7 @@ nav .right .btn:hover {
 .container .sub-cont .right {
   background-color: rgb(0, 7, 45);
 }
+.container .sub-cont .right img {background-color: #fff;}
 
 .footer {
   -webkit-padding-before: 1rem;
