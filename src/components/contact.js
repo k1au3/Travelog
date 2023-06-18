@@ -1,5 +1,5 @@
 import headphone from '../images/icons/headphone.png';
-// import question from '../images/icons/question.png'
+import question from '../images/icons/question.png'
 // import globe from '../images/icons/worldwide.png';
 // import map from '../images/icons/world-map.png'
 
@@ -32,7 +32,7 @@ const Contact = () => {
                 />
                 <Cont
                     classs="cont right"
-                    // source={question}
+                    source={question}
                     h3="Help&Support"
                     email="help@travelog.com"
                     tel="+254(123) 456-78-91" 
