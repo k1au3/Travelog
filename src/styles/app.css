@@ -625,4 +625,421 @@ nav .right .btn:hover {
 #card .text h5 {
   opacity: 0.7;
   font-size: 0.8rem;
+}
+
+.grapher {
+  margin-inline: 8rem;
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grapher .upper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(42, 157, 143);
+  padding-block: 2rem;
+  color: #fff;
+  width: 70dvw;
+}
+.grapher .upper-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-block: 1rem;
+}
+.grapher .upper-container span {
+  font-size: 0.9rem;
+  font-weight: 800;
+  opacity: 0.6;
+  text-align: center;
+  -webkit-padding-after: 1.2rem;
+          padding-block-end: 1.2rem;
+}
+.grapher .upper-container .grapher-btn {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: rgb(87, 211, 176);
+  border: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.grapher .upper-container .grapher-btn:hover {
+  background: rgb(87, 211, 176);
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.grapher .bottom-container {
+  margin-block: 2rem;
+  display: flex;
+  align-items: center;
+  width: 70dvw;
+  height: 20rem;
+}
+.grapher .bottom-container .gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  gap: 1rem;
+  height: 100%;
+}
+.grapher .bottom-container .gallery .p1 {
+  width: 49%;
+  height: 100%;
+  background: url(../images/photographer1.jpg);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.grapher .bottom-container .gallery .p2-3 {
+  height: 100%;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.grapher .bottom-container .gallery .p2-3 .p2 {
+  height: 49%;
+  width: 100%;
+  background: url(../images/photographer2.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.grapher .bottom-container .gallery .p2-3 .p3 {
+  height: 49%;
+  width: 100%;
+  background: url(../images/lovers.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.grapher .bottom-container .newsletter {
+  width: 50%;
+  height: 100%;
+  padding-block: 1rem;
+  -webkit-padding-start: 1rem;
+          padding-inline-start: 1rem;
+}
+.grapher .bottom-container .newsletter h5 {
+  -webkit-padding-before: 1rem;
+          padding-block-start: 1rem;
+  color: rgb(6, 214, 160);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: start;
+  width: 30%;
+}
+.grapher .bottom-container .newsletter h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: start;
+  padding-block: 1rem;
+  width: 40%;
+}
+.grapher .bottom-container .newsletter p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.7;
+  text-align: start;
+  width: 45%;
+}
+.grapher .bottom-container .newsletter form {
+  -webkit-padding-before: 2.5rem;
+          padding-block-start: 2.5rem;
+  -webkit-padding-after: 1.4rem;
+          padding-block-end: 1.4rem;
+}
+.grapher .bottom-container .newsletter form .newsletter-input {
+  padding: 0.65rem 5rem 0.65rem 1rem;
+  text-align: start;
+  border: none;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.grapher .bottom-container .newsletter form button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(42, 157, 143);
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+.grapher .bottom-container .newsletter form button:hover {
+  background-color: rgb(87, 211, 176);
+  transition: all 0.2s ease;
+}
+.grapher .bottom-container .newsletter span {
+  -webkit-margin-before: 2rem;
+          margin-block-start: 2rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.cont {
+  width: 25dvw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 1.5rem;
+  padding-inline: 3rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 7px;
+}
+.cont img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  color: rgb(42, 157, 143);
+}
+.cont h3 {
+  padding-block: 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.cont p {
+  -webkit-padding-after: 1.2rem;
+          padding-block-end: 1.2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.cont h5 {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.container .sub-cont {
+  margin-block: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 51dvw;
+  height: 15rem;
+}
+.container .sub-cont .left {
+  background-color: rgb(42, 157, 143);
+}
+.container .sub-cont .right {
+  background-color: rgb(0, 7, 45);
+}
+
+.footer {
+  -webkit-padding-before: 1rem;
+          padding-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.footer .sub-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+  width: 80dvw;
+}
+.footer .sub-nav .left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.footer .sub-nav .left .icon {
+  display: inline-flex;
+  gap: 0.9rem;
+}
+.footer .sub-nav .left .icon #ion {
+  font-size: 1.2rem;
+}
+.footer .sub-nav .left .icon span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.footer .sub-nav .left h3 {
+  opacity: 0.7;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.footer .sub-nav h5 {
+  opacity: 0.8;
+  font-weight: 400;
+}
+.footer .dash {
+  width: 80dvw;
+  height: 0.08rem;
+  background-color: rgb(56, 56, 56);
+}
+.footer .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80dvw;
+  padding-block: 0.3rem;
+  margin-bottom: -1rem;
+}
+.footer .nav .left h5 {
+  color: rgb(42, 157, 143);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.footer .nav .left h3 {
+  padding-block: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.footer .nav .right {
+  font-size: 1rem;
+}
+.footer .nav .right span {
+  color: black;
+  font-size: 1rem;
+  text-align: right;
+}
+.footer .nav .right h6 {
+  color: black;
+  font-size: 1.2rem;
+  text-align: right;
+  padding-block: 0.5rem;
+  font-weight: 600;
+}
+.footer .nav .right #ion {
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer .nav .right #ion:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.2s ease;
+}
+.footer .main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70dvw;
+  height: 18rem;
+}
+.footer .main-footer img {
+  width: 60%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer .main-footer .content {
+  width: 40%;
+  -webkit-padding-end: 2rem;
+          padding-inline-end: 2rem;
+}
+.footer .main-footer .content h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: start;
+}
+.footer .main-footer .content h2 {
+  padding-block: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: inline;
+  align-items: center;
+}
+.footer .main-footer .content #ion {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer .main-footer .content #ion:hover {
+  color: rgb(42, 157, 143);
+  transition: all 0.2s ease;
+}
+.footer .main-footer .content form {
+  -webkit-padding-before: 2.5rem;
+          padding-block-start: 2.5rem;
+  -webkit-padding-after: 1.4rem;
+          padding-block-end: 1.4rem;
+}
+.footer .main-footer .content form .footer-input {
+  padding: 0.65rem 3rem 0.65rem 1rem;
+  text-align: start;
+  border: none;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.footer .main-footer .content form button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(42, 157, 143);
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+.footer .main-footer .content form button:hover {
+  background-color: rgb(87, 211, 176);
+  transition: all 0.2s ease;
+}
+.footer .bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 0.3rem;
+  width: 97%;
+  margin-inline: 4rem;
+}
+.footer .bottom-footer h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.footer .bottom-footer h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.footer .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 0.3rem;
+  width: 97%;
+  margin-inline: 4rem;
+}
+.footer .card .left {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.footer .card .right {
+  display: flex;
+}
+.footer .card .right img {
+  width: 2rem;
+  height: 2rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer .end {
+  width: 100%;
 }/*# sourceMappingURL=app.css.map */
